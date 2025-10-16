@@ -1,0 +1,1009 @@
+2023-06-21 15:02:44.175 [main] INFO  Server - Server started on port 9999
+2023-06-21 15:02:49.864 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2023-06-21 15:02:51.714 [AWT-EventQueue-0] INFO  ChatClient - Client started: eqw
+2023-06-21 15:02:51.715 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=53488,localport=9999]
+2023-06-21 15:02:58.222 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2023-06-21 15:03:00.229 [AWT-EventQueue-0] INFO  ChatClient - Client started: null
+2023-06-21 15:03:00.229 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=53495,localport=9999]
+2023-06-21 15:03:04.381 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2023-06-21 15:03:04.382 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2023-06-21 15:03:06.900 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2023-06-21 15:03:06.900 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: null
+2023-06-21 15:03:08.360 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2023-06-21 15:03:08.360 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2023-06-21 15:03:09.439 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2023-06-21 15:03:09.439 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: eqw
+2023-06-21 15:03:12.016 [Thread-2] INFO  Server - Client Disconnected
+2023-06-21 15:03:12.629 [Thread-1] INFO  Server - Client Disconnected
+2024-03-07 14:08:36.321 [main] INFO  Server - Server started on port 9999
+2024-03-07 14:08:46.110 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:08:49.006 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-07 14:08:49.007 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=50178,localport=9999]
+2024-03-07 14:08:50.653 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:08:50.654 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:11:50.689 [main] INFO  Server - Server started on port 52384
+2024-03-07 14:11:57.009 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:12:01.185 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:13:03.503 [main] INFO  Server - Server started on port 52384
+2024-03-07 14:13:15.236 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:13:19.109 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:14:22.918 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:14:27.643 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch$$$capture(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:14:36.181 [main] INFO  Server - Server started on port 52384
+2024-03-07 14:14:44.654 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:14:48.996 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:15:16.016 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:15:20.072 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch$$$capture(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:17:23.094 [main] INFO  Server - Server started on port 9999
+2024-03-07 14:17:40.178 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:17:42.425 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-07 14:17:42.426 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=50276,localport=9999]
+2024-03-07 14:17:48.107 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:17:48.107 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:19:15.310 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:19:15.310 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:22:24.013 [Thread-1] INFO  Server - Client Disconnected
+2024-03-07 14:22:45.750 [main] INFO  Server - Server started on port 50276
+2024-03-07 14:22:51.244 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:22:53.563 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-07 14:22:53.564 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=50303,localport=50276]
+2024-03-07 14:22:56.169 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:22:56.169 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:23:46.355 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:23:51.130 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:25:18.722 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:25:20.805 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.UnknownHostException: 127.0.0.1:53950
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:28:12.258 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:28:16.185 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:29:05.257 [main] INFO  Server - Server started on port 50276
+2024-03-07 14:29:13.164 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:29:15.129 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-07 14:29:15.131 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=50376,localport=50276]
+2024-03-07 14:29:17.560 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:29:17.561 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:30:59.361 [Thread-1] INFO  Server - Client Disconnected
+2024-03-07 14:31:30.770 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:31:53.730 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:32:23.596 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:32:25.494 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.UnknownHostException: 10.138.2.28:53950
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:32:50.000 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:33:13.218 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:37:04.852 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:37:27.895 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:38:13.731 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:38:17.556 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:38:40.416 [main] INFO  Server - Server started on port 9999
+2024-03-07 14:38:45.513 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:38:49.425 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:39:20.565 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:39:43.459 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:41:33.279 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:41:57.282 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-07 14:42:23.597 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:42:26.033 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-07 14:42:29.342 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:42:29.342 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:45:14.923 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-07 14:45:14.923 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: eren
+2024-03-07 14:45:27.913 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-07 14:45:31.106 [AWT-EventQueue-0] INFO  ChatClient - Client started: berkay
+2024-03-07 14:45:33.481 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:45:33.482 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:45:40.185 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:45:40.188 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:45:42.882 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:45:42.883 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:45:59.829 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:45:59.830 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:46:02.252 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-07 14:46:02.253 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: efe
+2024-03-07 14:46:18.184 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:46:18.184 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-07 14:46:21.248 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-07 14:46:21.249 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-17 16:18:56.143 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-17 16:19:15.534 [main] INFO  Server - Server started on port 9999
+2024-03-17 16:19:19.412 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-17 16:19:41.652 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-17 16:20:21.966 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-17 16:20:43.047 [main] INFO  Server - Server started on port 9999
+2024-03-17 16:20:45.946 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-17 16:20:47.935 [AWT-EventQueue-0] INFO  ChatClient - Client started: efe
+2024-03-17 16:20:47.936 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60703,localport=9999]
+2024-03-17 16:21:13.077 [Thread-1] INFO  Server - Client Disconnected
+2024-03-17 16:31:41.172 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-17 16:31:47.985 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_402]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_402]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_402]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_402]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_402]
+	at java.net.Socket.connect(Socket.java:556) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:452) ~[?:1.8.0_402]
+	at java.net.Socket.<init>(Socket.java:229) ~[?:1.8.0_402]
+	at ChatClient.<init>(ChatClient.java:28) [ChatApp/:?]
+	at ChatApplicationGUI.<init>(ChatApplicationGUI.java:31) [ChatApp/:?]
+	at ChatApplicationGUI$5.run(ChatApplicationGUI.java:150) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_402]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_402]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_402]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_402]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_402]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_402]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_402]
+2024-03-26 18:10:56.978 [main] INFO  Server - Server started on port 9999
+2024-03-26 18:11:15.474 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-26 18:11:36.852 [AWT-EventQueue-0] INFO  ChatClient - Client started: User1
+2024-03-26 18:11:36.868 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=58385,localport=9999]
+2024-03-26 18:11:41.728 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:11:41.729 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:11:42.691 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:11:42.692 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:11:43.200 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:11:43.201 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:11:43.434 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:11:43.436 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:11:43.664 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:11:43.664 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:11.003 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-26 18:12:17.863 [AWT-EventQueue-0] INFO  ChatClient - Client started: User2
+2024-03-26 18:12:17.863 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=58393,localport=9999]
+2024-03-26 18:12:19.972 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:19.974 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:22.786 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:22.788 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:35.920 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:35.928 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:37.289 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:37.290 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:44.718 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-26 18:12:44.721 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: User2
+2024-03-26 18:12:55.937 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:55.940 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:12:56.536 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:12:56.538 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:13:10.751 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:13:10.757 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:13:20.050 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:13:20.052 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:13:22.651 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:13:22.654 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:13:24.056 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-26 18:13:24.061 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-26 18:13:33.850 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-26 18:13:33.852 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: User2
+2024-03-26 18:13:48.799 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-26 18:13:48.801 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 01:34:10.739 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-27 01:34:44.034 [AWT-EventQueue-0] INFO  ChatClient - Client started: user1
+2024-03-27 01:34:44.087 [Thread-3] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=58894,localport=9999]
+2024-03-27 01:36:35.321 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 01:36:35.326 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:52:55.211 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 02:52:55.227 [Thread-4] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59366,localport=9999]
+2024-03-27 02:52:57.213 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:52:57.213 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:53:00.552 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:53:00.560 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:53:28.654 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:53:28.656 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:53:29.267 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:53:29.267 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:53:38.581 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:53:38.583 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:53:39.919 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 02:53:39.919 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 02:53:47.279 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 02:53:47.280 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: user1
+2024-03-27 02:54:08.980 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:54:08.982 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:54:11.606 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 02:54:11.610 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: user1
+2024-03-27 02:54:20.169 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:54:20.171 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:54:50.491 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:54:50.492 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:54:54.548 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:56:03.038 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:56:03.040 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:56:07.884 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:56:07.886 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:56:08.562 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:56:08.563 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:56:19.816 [Thread-5] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59387,localport=9999]
+2024-03-27 02:56:19.842 [AWT-EventQueue-0] INFO  ChatClient - Client started: Ahmed
+2024-03-27 02:56:30.354 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:56:30.357 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:56:38.364 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 02:56:38.366 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 02:56:40.167 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 02:56:40.168 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: Ahmed
+2024-03-27 02:56:51.864 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 02:56:51.865 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: user1
+2024-03-27 02:56:57.333 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:56:57.334 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:57:00.448 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:57:00.449 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:57:04.070 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:57:04.070 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:57:05.950 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:57:05.950 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 02:57:09.499 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 02:57:09.500 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message search completed
+2024-03-27 03:06:27.488 [Thread-6] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59460,localport=9999]
+2024-03-27 03:06:27.515 [AWT-EventQueue-0] INFO  ChatClient - Client started: hello
+2024-03-27 03:06:29.491 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:06:29.493 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:07:42.940 [Thread-7] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59465,localport=9999]
+2024-03-27 03:07:42.969 [AWT-EventQueue-0] INFO  ChatClient - Client started: Ali
+2024-03-27 03:09:15.605 [Thread-8] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59471,localport=9999]
+2024-03-27 03:09:15.638 [AWT-EventQueue-0] INFO  ChatClient - Client started: Ali
+2024-03-27 03:09:19.690 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:09:19.692 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:09:20.042 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:09:20.042 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:09:23.256 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 03:09:23.257 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: user1
+2024-03-27 03:14:21.831 [main] INFO  Server - Server started on port 9999
+2024-03-27 03:14:31.268 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-27 03:14:35.863 [AWT-EventQueue-0] INFO  ChatClient - Client started: ali
+2024-03-27 03:14:35.872 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59497,localport=9999]
+2024-03-27 03:14:49.651 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59501,localport=9999]
+2024-03-27 03:14:49.671 [AWT-EventQueue-0] INFO  ChatClient - Client started: null
+2024-03-27 03:14:54.597 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:14:54.599 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:14:56.561 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:14:56.566 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:15:12.315 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 03:15:12.317 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 03:15:16.264 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:15:16.265 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:15:47.651 [main] INFO  Server - Server started on port 9999
+2024-03-27 03:15:56.723 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-27 03:16:00.830 [AWT-EventQueue-0] INFO  ChatClient - Client started: ali
+2024-03-27 03:16:00.854 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59520,localport=9999]
+2024-03-27 03:16:08.388 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59524,localport=9999]
+2024-03-27 03:16:08.413 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 03:16:10.226 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:16:10.226 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:30:06.999 [Thread-3] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59568,localport=9999]
+2024-03-27 03:30:07.003 [AWT-EventQueue-0] INFO  ChatClient - Client started: aaa
+2024-03-27 03:32:50.092 [Thread-4] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59587,localport=9999]
+2024-03-27 03:32:50.115 [AWT-EventQueue-0] INFO  ChatClient - Client started: Hello
+2024-03-27 03:36:50.323 [Thread-5] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59642,localport=9999]
+2024-03-27 03:36:50.352 [AWT-EventQueue-0] INFO  ChatClient - Client started: Bilal
+2024-03-27 03:41:07.483 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 03:41:07.504 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 03:41:09.974 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 03:41:09.974 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 03:43:38.275 [AWT-EventQueue-0] ERROR ChatClient - An error occurred
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_202]
+	at java.net.Socket.<init>(Socket.java:434) ~[?:1.8.0_202]
+	at java.net.Socket.<init>(Socket.java:211) ~[?:1.8.0_202]
+	at ChatClient.<init>(ChatClient.java:29) [ChatApp/:?]
+	at UserChatGUI.<init>(UserChatGUI.java:170) [ChatApp/:?]
+	at UserChatGUI$1.run(UserChatGUI.java:43) [ChatApp/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_202]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_202]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_202]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_202]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_202]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_202]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_202]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_202]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_202]
+2024-03-27 03:56:13.391 [main] INFO  Server - Server started on port 9999
+2024-03-27 03:56:16.545 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59701,localport=9999]
+2024-03-27 03:56:16.573 [AWT-EventQueue-0] INFO  ChatClient - Client started: nn
+2024-03-27 04:11:53.772 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 04:11:53.769 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59789,localport=9999]
+2024-03-27 04:12:04.857 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:12:04.858 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:31:39.403 [AWT-EventQueue-0] INFO  ChatClient - Client started: adsfsdfsdf
+2024-03-27 04:31:39.407 [Thread-3] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59852,localport=9999]
+2024-03-27 04:37:43.471 [Thread-4] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59865,localport=9999]
+2024-03-27 04:37:43.491 [AWT-EventQueue-0] INFO  ChatClient - Client started: ali
+2024-03-27 04:37:47.438 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:37:47.439 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:37:47.804 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:37:47.804 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:40:34.991 [Thread-5] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59901,localport=9999]
+2024-03-27 04:40:35.006 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 04:40:38.894 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:40:38.895 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:40:40.047 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:40:40.054 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:41:00.532 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:41:00.534 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 04:46:01.361 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:46:01.364 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 04:52:07.304 [Thread-6] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59923,localport=9999]
+2024-03-27 04:52:07.465 [AWT-EventQueue-0] INFO  ChatClient - Client started: ahmed
+2024-03-27 04:52:09.748 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:52:09.750 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:52:34.783 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:52:34.787 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 04:52:44.260 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:52:44.267 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:53:02.153 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:53:02.156 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 04:53:29.616 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:53:29.618 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:56:59.132 [Thread-7] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59933,localport=9999]
+2024-03-27 04:56:59.165 [AWT-EventQueue-0] INFO  ChatClient - Client started: shah
+2024-03-27 04:57:02.208 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:57:02.211 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:57:10.198 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:57:10.201 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 04:57:39.557 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:57:39.570 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:57:45.447 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:57:45.448 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 04:57:57.425 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 04:57:57.431 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 04:58:00.631 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 04:58:00.632 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:04:48.485 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:48.490 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:04:52.994 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:52.995 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:04:53.974 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:53.974 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:04:54.243 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:54.243 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:04:57.043 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:57.043 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:04:59.508 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:04:59.509 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:05:00.578 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:05:00.579 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:05:01.575 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:05:01.575 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:05:58.174 [Thread-8] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59952,localport=9999]
+2024-03-27 05:05:58.190 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 05:06:00.710 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:06:00.712 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:06:05.676 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:06:05.680 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:04.330 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:04.334 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:04.931 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:04.932 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:05.213 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:05.213 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:12.019 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:07:12.024 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:07:18.623 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:18.625 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:23.610 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:23.613 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:07:40.878 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:40.880 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:07:45.442 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:07:45.443 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:08:49.865 [Thread-9] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59959,localport=9999]
+2024-03-27 05:08:49.879 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 05:08:52.930 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:08:52.933 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:08:55.763 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:08:55.766 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:09:11.032 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:09:11.038 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:09:17.110 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:09:17.113 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:09:25.334 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:09:25.335 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:09:30.708 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:09:30.709 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: shah
+2024-03-27 05:13:38.891 [main] INFO  Server - Server started on port 9999
+2024-03-27 05:14:44.885 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59978,localport=9999]
+2024-03-27 05:14:44.903 [AWT-EventQueue-0] INFO  ChatClient - Client started: ali
+2024-03-27 05:15:22.254 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=59983,localport=9999]
+2024-03-27 05:15:22.290 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 05:15:27.142 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:15:27.143 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:15:28.156 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:15:28.159 [AWT-EventQueue-0] INFO  ChatApplicationGUI - User list refreshed
+2024-03-27 05:15:34.437 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:15:34.440 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:15:55.742 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:15:55.747 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 05:15:59.975 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:15:59.976 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: ali
+2024-03-27 05:16:05.355 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:16:05.361 [AWT-EventQueue-0] INFO  ChatApplicationGUI - Message history received for sender: bilal
+2024-03-27 05:19:46.681 [main] INFO  ChatApplicationGUI - Chat application GUI started
+2024-03-27 05:37:06.474 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:39:19.407 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:40:29.544 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:41:35.310 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:42:23.522 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:45:17.269 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:45:49.900 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60108,localport=1111]
+2024-03-27 05:45:49.921 [AWT-EventQueue-0] INFO  ChatClient - Client started: aa
+2024-03-27 05:46:13.928 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:46:49.277 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60116,localport=1111]
+2024-03-27 05:46:49.295 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 05:49:59.379 [main] INFO  Server - Server started on port 1111
+2024-03-27 05:51:06.300 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60128,localport=1111]
+2024-03-27 05:51:06.329 [AWT-EventQueue-0] INFO  ChatClient - Client started: bilal
+2024-03-27 05:51:12.036 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:51:12.037 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:52:06.280 [Thread-2] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60133,localport=1111]
+2024-03-27 05:52:06.321 [AWT-EventQueue-0] INFO  ChatClient - Client started: ali
+2024-03-27 05:52:13.798 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:52:13.801 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:52:15.118 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:52:15.120 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:52:23.488 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:52:23.491 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:52:27.650 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:52:27.653 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: ali
+2024-03-27 05:52:35.365 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:52:35.367 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: ali
+2024-03-27 05:52:37.832 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:52:37.834 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:52:45.831 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:52:45.832 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:53:00.314 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:53:00.316 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: ali
+2024-03-27 05:53:02.948 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:53:02.952 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:53:06.051 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:53:06.052 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:53:08.631 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:53:08.634 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:53:23.934 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 05:53:23.935 [AWT-EventQueue-0] INFO  UserChatGUI - Message search completed
+2024-03-27 05:53:34.750 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 05:53:34.753 [AWT-EventQueue-0] INFO  UserChatGUI - Message search completed
+2024-03-27 05:54:06.510 [Thread-3] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60140,localport=1111]
+2024-03-27 05:54:06.531 [AWT-EventQueue-0] INFO  ChatClient - Client started: ahmed
+2024-03-27 05:54:15.127 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:54:15.130 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:54:17.083 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:54:17.085 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:54:28.913 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:54:28.915 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: ahmed
+2024-03-27 05:54:32.035 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:54:32.038 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:54:35.618 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:54:35.622 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:54:39.483 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 05:54:39.486 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 05:54:41.381 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:54:41.382 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: bilal
+2024-03-27 05:54:43.952 [AWT-EventQueue-0] INFO  ChatClient - Message history received
+2024-03-27 05:54:43.953 [AWT-EventQueue-0] INFO  UserChatGUI - Message history received for sender: ahmed
+2024-03-27 06:01:57.391 [main] INFO  Server - Server started on port 1111
+2024-03-27 06:02:03.530 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60159,localport=1111]
+2024-03-27 06:02:03.556 [AWT-EventQueue-0] INFO  ChatClient - Client started: kjkj
+2024-03-27 06:02:21.793 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:02:21.795 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:02:23.118 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:02:23.119 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:02:24.247 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:02:24.249 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:04:38.461 [main] INFO  Server - Server started on port 1111
+2024-03-27 06:04:55.324 [Thread-1] INFO  Server - New client connected: Socket[addr=/127.0.0.1,port=60170,localport=1111]
+2024-03-27 06:04:55.338 [AWT-EventQueue-0] INFO  ChatClient - Client started: alkdjf
+2024-03-27 06:05:00.232 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:05:00.232 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:05:06.814 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:05:06.815 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:05:09.131 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:05:09.131 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:05:09.697 [AWT-EventQueue-0] INFO  ChatClient - Connected users list received
+2024-03-27 06:05:09.697 [AWT-EventQueue-0] INFO  UserChatGUI - User list refreshed
+2024-03-27 06:05:30.487 [AWT-EventQueue-0] INFO  ChatClient - Message search completed
+2024-03-27 06:05:30.489 [AWT-EventQueue-0] INFO  UserChatGUI - Message search completed
